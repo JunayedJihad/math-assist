@@ -10,7 +10,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<MainLayout/>}>
           <Route index element={<EquilateralTri/>}/>
-          <Route path='isoseles' element={<IsoselesTriangle/>}/>
+          <Route path='isoselesTriangle' element={<IsoselesTriangle/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
