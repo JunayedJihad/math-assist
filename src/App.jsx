@@ -3,6 +3,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainLayout from './components/MainLayout';
 import EquilateralTri from './components/EquilateralTri';
 import IsoselesTriangle from './components/IsoselesTriangle';
+import ThreeSideGivenTriangle from './components/ThreeSideGivenTriangle';
+import LinearEquation from './components/LinearEquation';
+import QuadraticEquation from './components/QuadraticEquation';
+import StraightLine from './components/StraightLine';
+import TriangleArea from './components/TriangleArea';
 
 const App = () => {
   return (
@@ -11,6 +16,11 @@ const App = () => {
         <Route path='/' element={<MainLayout/>}>
           <Route index element={<EquilateralTri/>}/>
           <Route path='isoselesTriangle' element={<IsoselesTriangle/>}/>
+          <Route path='threeSidesGiven' element={<ThreeSideGivenTriangle/>}/>
+          <Route path='linearEquation' element={<LinearEquation/>}/>
+          <Route path='quadraticEquation' element={<QuadraticEquation/>}/>
+          <Route path='straightLine' element={<StraightLine/>}/>
+          <Route path='triangleArea' element={<TriangleArea/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
