@@ -13,10 +13,10 @@ const MainLayout = () => {
           </div>
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center gap-2 gap-lg-4 text-light ">
             <h2 className="text-center text-lg-start mb-0">
-              Tired of doing boring calculations?
+              Tired of doing complex calculations?
             </h2>
             <h2 className="text-center text-lg-start mb-0">
-              Now focus on the topics as
+              Now focus on the topic as
             </h2>
             <h2 className="text-center text-lg-start">
               <span className="h1 fw-bold " style={{ color: "#8e44ad" }}>
