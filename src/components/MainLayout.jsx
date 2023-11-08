@@ -4,6 +4,7 @@ import imgSrc from "../assets/image/Calculator-bro.png";
 import MenuItem from "./MenuItem";
 
 const MainLayout = () => {
+
   return (
     <div>
       <div className="container ">
@@ -42,6 +43,7 @@ const MainLayout = () => {
               path="quadraticEquation"
             />
             <MenuItem title="Straight Line" path="straightLine" />
+            <MenuItem title="Straight Line Equation" path="straightLineEqn" />
           </div>
           <div className="col-12 col-lg-6 order-lg-2 order-1  d-flex align-items-center justify-content-center  ">
             <Outlet />

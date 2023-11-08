@@ -8,6 +8,7 @@ import LinearEquation from './components/LinearEquation';
 import QuadraticEquation from './components/QuadraticEquation';
 import StraightLine from './components/StraightLine';
 import TriangleArea from './components/TriangleArea';
+import StraightLineEqn from './components/StraightLineEqn';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='quadraticEquation' element={<QuadraticEquation/>}/>
           <Route path='straightLine' element={<StraightLine/>}/>
           <Route path='triangleArea' element={<TriangleArea/>}/>
+          <Route path='straightLineEqn' element={<StraightLineEqn/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

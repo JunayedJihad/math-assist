@@ -12,7 +12,10 @@ const ThreeSideGivenTriangle = () => {
 
      function handleSubmit(e) {
           e.preventDefault()
-          if((a+b>c)&&(a+c>b)&&(b+c>a)){
+          if(isNaN(a) || isNaN(b) || isNaN(c)){
+               setResult('Invalid Input')
+          }
+          else if((a+b>c)&&(a+c>b)&&(b+c>a)){
 
                setResult(`${ans} sq.unit`)
           }else{
