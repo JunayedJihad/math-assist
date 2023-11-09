@@ -9,6 +9,7 @@ import QuadraticEquation from './components/QuadraticEquation';
 import StraightLine from './components/StraightLine';
 import TriangleArea from './components/TriangleArea';
 import StraightLineEqn from './components/StraightLineEqn';
+import TriangleAngleGiven from './components/TriangleAngleGiven';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route index element={<EquilateralTri/>}/>
           <Route path='isoselesTriangle' element={<IsoselesTriangle/>}/>
           <Route path='threeSidesGiven' element={<ThreeSideGivenTriangle/>}/>
+          <Route path='oneAngleGiven' element={<TriangleAngleGiven/>}/>
           <Route path='linearEquation' element={<LinearEquation/>}/>
           <Route path='quadraticEquation' element={<QuadraticEquation/>}/>
           <Route path='straightLine' element={<StraightLine/>}/>
