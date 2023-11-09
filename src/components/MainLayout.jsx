@@ -14,14 +14,14 @@ const MainLayout = () => {
             <img src={imgSrc} alt="Illustration" />
           </div>
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center gap-2 gap-lg-4 text-light ">
-            <h2 className="text-center text-lg-start mb-0">
+            <h2 className="fs-2  text-center text-lg-start mb-0">
               Tired of doing complex calculations?
             </h2>
-            <h2 className="text-center text-lg-start mb-0">
+            {/* <h2 className="text-center text-lg-start mb-0">
               Now focus on the topic as
-            </h2>
-            <h2 className="text-center text-lg-start">
-              <span className="h1 fw-bold " style={{ color: "#8e44ad" }}>
+            </h2> */}
+            <h2 className="fs-2  text-center text-lg-start">
+              <span className=" math_assist h1 fw-bold " style={{ color: "#8e44ad" }}>
                 MathAssist
               </span>{" "}
               is here for you...
